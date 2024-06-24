@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Calculator </title>
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <table class="table" align="center">
+            <tr>
+                <td colspan="4"><input Type="text" class="t" id="t"> </td>
+            </tr><br>
+            <tr>
+                <td> <Button class="Button" onclick="pick(7)">7</Button></td>
+                <td> <Button class="Button" onclick="pick(8)"> 8 </Button> </td>
+                <td> <Button class="Button" onclick="pick(9)"> 9 </Button> </td>
+                <td> <Button class="Button" onclick="pick('+')"> + </Button> </td>
+            </tr><br>
+            <tr>
+                <td> <Button class="Button" onclick="pick(4)"> 4 </Button> </td>
+                <td> <Button class="Button" onclick="pick(5)"> 5 </Button> </td>
+                <td> <Button class="Button" onclick="pick(6)"> 6 </Button> </td>
+                <td> <Button class="Button" onclick="pick('-')"> - </Button> </td>
+            </tr><br>
+            <tr>
+                <td> <Button class="Button" onclick="pick(1)"> 1 </Button> </td>
+                <td> <Button class="Button" onclick="pick(2)"> 2 </Button> </td>
+                <td> <Button class="Button" onclick="pick(3)"> 3 </Button> </td>
+                <td> <Button class="Button" onclick="pick('*')"> * </Button> </td>
+            </tr><br>
+            <tr>
+                <td> <Button class="Button" onclick="Clear()"> C </Button> </td>
+                <td> <Button class="Button" onclick="pick(0)"> 0 </Button> </td>
+                <td> <Button class="Button" onclick="pick('.')"> . </Button> </td>
+                <td> <Button class="Button" onclick="pick('/')"> / </Button> </td>
+            </tr><br>
+            <tr>
+                <td colspan="4"> <Button class="b" onclick="Sol()"> = </Button> </td>
+            </tr>
+
+        </table>
+        <script src="script.js"></script>
+    </body>
+</html>
